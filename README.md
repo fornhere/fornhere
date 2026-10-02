@@ -7,7 +7,6 @@
 
 <p align="center">
   <a href="https://youtube.com/@fornyapayzeka"><img src="https://img.shields.io/badge/YouTube-Forn%20AI-b45309?style=flat-square&logo=youtube&logoColor=white&labelColor=1f2328" alt="YouTube: Forn AI"></a>
-  <a href="https://youtube.com/@fornyapayzeka"><img src="https://img.shields.io/youtube/channel/subscribers/UCRBbZXl8gfgCDS2IDoOK_cQ?style=flat-square&label=abone&color=b45309&labelColor=1f2328" alt="YouTube abone sayısı"></a>
 </p>
 
 [Forn AI](https://youtube.com/@fornyapayzeka) kanalında yapay zekâyla projeler geliştiriyor, kendi araçlarımı kuruyor ve modelleri gerçek işlerde test ediyorum.
