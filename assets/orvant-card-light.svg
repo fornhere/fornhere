@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Orvant</title>
+  <desc id="d">Your coding agent says "done". Orvant asks for proof. Akış: karşılama, mimar, kehanet, yürütme, kapı (geçer/kalır), teşhis; teşhisten yeniden dene veya yeniden planla. 0.1.0b1, open beta, MIT.</desc>
+  <style>
+  .m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+  .s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;}
+  .tx{fill:#1f2328;}
+  .mu{fill:#59636e;}
+  .ac{fill:#b45309;}
+  .ink{fill:#ffffff;}
+
+  .gx{animation:gx 4s ease-in-out infinite;}
+  .gv{animation:gv 4s ease-in-out infinite;}
+  @keyframes gx{0%,40%{opacity:1}50%,90%{opacity:.25}100%{opacity:1}}
+  @keyframes gv{0%,40%{opacity:.25}50%,90%{opacity:1}100%{opacity:.25}}
+  .march{animation:march 1.8s linear infinite;}
+  @keyframes march{to{stroke-dashoffset:-18}}
+  .cur{animation:blink 1.1s steps(1,end) infinite;}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+
+  @media (prefers-reduced-motion: reduce){ *{animation:none !important;} }
+</style>
+  <defs>
+    <pattern id="gp" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1f2328" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gmg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0.25"/></linearGradient>
+    <mask id="gm"><rect width="1200" height="420" fill="url(#gmg)"/></mask>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#59636e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#b45309" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="16" fill="#fcfcfa" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="1198" height="418" rx="16" fill="url(#gp)" mask="url(#gm)"/>
+
+  <text x="50" y="52" class="m mu" font-size="16">fornhere /</text>
+  <text x="46" y="106" class="m tx" font-size="54" font-weight="700" letter-spacing="2">ORVANT<tspan class="ac cur">_</tspan></text>
+  <text x="50" y="150" class="s tx" font-size="25" font-weight="700" letter-spacing="-0.3">Your coding agent says <tspan class="mu">“done”</tspan>. Orvant asks for <tspan class="ac">proof.</tspan></text>
+
+  <rect x="866" y="34" width="286" height="36" rx="18" fill="none" stroke="#b45309" stroke-width="1.6"/>
+  <circle cx="886" cy="52" r="4.5" fill="#b45309"/>
+  <text x="1017.0" y="57" text-anchor="middle" class="m tx" font-size="15">0.1.0b1 · open beta · MIT</text>
+  <text x="1150" y="104" text-anchor="end" class="m mu" font-size="15">early scope: small Python CLIs · data automation · repo upkeep</text>
+
+  
+  <rect x="48" y="212" width="156" height="78" rx="10" fill="#f3f2ee" stroke="#d0d7de" stroke-width="1.2"/>
+  <text x="60" y="232" class="m mu" font-size="13">01</text>
+  <text x="126.0" y="256" text-anchor="middle" class="s tx" font-size="20" font-weight="700">karşılama</text>
+  <text x="126.0" y="278" text-anchor="middle" class="m mu" font-size="14.5">clarify goal</text>
+  <line x1="209" y1="251.0" x2="232" y2="251.0" stroke="#59636e" stroke-width="1.6" marker-end="url(#ar)"/>
+  <rect x="238" y="212" width="156" height="78" rx="10" fill="#f3f2ee" stroke="#d0d7de" stroke-width="1.2"/>
+  <text x="250" y="232" class="m mu" font-size="13">02</text>
+  <text x="316.0" y="256" text-anchor="middle" class="s tx" font-size="20" font-weight="700">mimar</text>
+  <text x="316.0" y="278" text-anchor="middle" class="m mu" font-size="14.5">plan graph</text>
+  <line x1="399" y1="251.0" x2="422" y2="251.0" stroke="#59636e" stroke-width="1.6" marker-end="url(#ar)"/>
+  <rect x="428" y="212" width="156" height="78" rx="10" fill="#f3f2ee" stroke="#d0d7de" stroke-width="1.2"/>
+  <text x="440" y="232" class="m mu" font-size="13">03</text>
+  <text x="506.0" y="256" text-anchor="middle" class="s tx" font-size="20" font-weight="700">kehanet</text>
+  <text x="506.0" y="278" text-anchor="middle" class="m mu" font-size="14.5">exam first</text>
+  <line x1="589" y1="251.0" x2="612" y2="251.0" stroke="#59636e" stroke-width="1.6" marker-end="url(#ar)"/>
+  <rect x="618" y="212" width="156" height="78" rx="10" fill="#f3f2ee" stroke="#d0d7de" stroke-width="1.2"/>
+  <text x="630" y="232" class="m mu" font-size="13">04</text>
+  <text x="696.0" y="256" text-anchor="middle" class="s tx" font-size="20" font-weight="700">yürütme</text>
+  <text x="696.0" y="278" text-anchor="middle" class="m mu" font-size="14.5">run in worktree</text>
+  <line x1="779" y1="251.0" x2="802" y2="251.0" stroke="#59636e" stroke-width="1.6" marker-end="url(#ar)"/>
+  <rect x="808" y="212" width="156" height="78" rx="10" fill="#b45309" fill-opacity="0.13" stroke="#b45309" stroke-width="2"/>
+  <g fill="none" stroke="#b45309" stroke-width="2" stroke-opacity="1" stroke-linecap="square"><path d="M801 217V205H813"/><path d="M959 205H971V217"/><path d="M801 285V297H813"/><path d="M959 297H971V285"/></g>
+  <text x="820" y="232" class="m ac" font-size="13" font-weight="700">05</text>
+  <text x="886.0" y="254" text-anchor="middle" class="s tx" font-size="20" font-weight="700">kapı</text>
+  <text x="862.0" y="280" text-anchor="middle" class="m ac gv" font-size="21" font-weight="700">✓</text>
+  <text x="886.0" y="279" text-anchor="middle" class="m mu" font-size="16">/</text>
+  <text x="910.0" y="280" text-anchor="middle" class="m tx gx" font-size="21" font-weight="700">✗</text>
+  <line x1="969" y1="251.0" x2="992" y2="251.0" stroke="#b45309" stroke-width="1.6" marker-end="url(#aa)"/>
+  <rect x="998" y="212" width="156" height="78" rx="10" fill="#f3f2ee" stroke="#d0d7de" stroke-width="1.2"/>
+  <text x="1010" y="232" class="m mu" font-size="13">06</text>
+  <text x="1076.0" y="256" text-anchor="middle" class="s tx" font-size="20" font-weight="700">teşhis</text>
+  <text x="1076.0" y="278" text-anchor="middle" class="m mu" font-size="14.5">classify cause</text>
+  <text x="981" y="243.0" text-anchor="middle" class="m ac" font-size="13" font-weight="700">✗</text>
+  <line x1="886.0" y1="202" x2="886.0" y2="172" stroke="#b45309" stroke-width="1.8" marker-end="url(#aa)"/>
+  <text x="900.0" y="186" class="m ac" font-size="15" font-weight="700">✓ kabul · accepted</text>
+  <path class="march" d="M1054.0 296 V324 H696.0 V300" fill="none" stroke="#b45309" stroke-width="1.6" stroke-dasharray="6 3" marker-end="url(#aa)"/>
+  <path class="march" d="M1098.0 296 V366 H316.0 V300" fill="none" stroke="#59636e" stroke-width="1.6" stroke-dasharray="6 3" marker-end="url(#ar)"/>
+  <rect x="757.0" y="312" width="236" height="24" rx="12" fill="#fcfcfa"/>
+  <text x="875.0" y="329" text-anchor="middle" class="m ac" font-size="15">yeniden dene · retry</text>
+  <rect x="378.0" y="354" width="256" height="24" rx="12" fill="#fcfcfa"/>
+  <text x="506.0" y="371" text-anchor="middle" class="m mu" font-size="15">yeniden planla · replan</text>
+
+  <text x="50" y="396" class="m mu" font-size="15">$ orvant karsila · mimar · yurut · surdur</text>
+  <text x="1150" y="396" text-anchor="end" class="m mu" font-size="15">github.com/fornhere/orvant</text>
+</svg>
